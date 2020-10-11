@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (5.2.2)
+  - APIService/Auth (1.0.2):
+    - HacomaExtensions (= 1.0.2)
+    - HacomaNetwork (= 1.0.2)
+  - HacomaExtensions (1.0.2)
+  - HacomaNetwork (1.0.2):
+    - Moya (= 14.0.0)
+  - HacomaUI/InsetTextField (1.0.2)
+  - LoginScene (1.0.2):
+    - APIService/Auth (= 1.0.2)
+    - HacomaExtensions (= 1.0.2)
+    - HacomaUI/InsetTextField (= 1.0.2)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+
+DEPENDENCIES:
+  - LoginScene (from `/Users/hacoma/Desktop/synstagram/scene-sources/Synstagram-LoginScene`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Moya
+  https://github.com/hacoma/iOS-Hacoma-Module-CocoaPods-Specs.git:
+    - HacomaExtensions
+    - HacomaNetwork
+    - HacomaUI
+  https://github.com/hacoma/Synstagram-Module-CocoaPods-Specs.git:
+    - APIService
+
+EXTERNAL SOURCES:
+  LoginScene:
+    :path: "/Users/hacoma/Desktop/synstagram/scene-sources/Synstagram-LoginScene"
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  APIService: a3f7c15252fa09120df4bf1a0b82435163df8aff
+  HacomaExtensions: 0d243cb247f4046ce014e040938813f36d832a8c
+  HacomaNetwork: efa22825d5ab84804b9fe66d19ec7f608e1166c3
+  HacomaUI: ebcdef08bb7112c3a37b9c219524707787324b8a
+  LoginScene: f993b59d30087ad24b586c21c4c57ed0396bfaf2
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+
+PODFILE CHECKSUM: 0e9c98846c5fe9736540d3f2fef0de680451747c
+
+COCOAPODS: 1.9.3

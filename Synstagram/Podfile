@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/hacoma/iOS-Hacoma-Module-CocoaPods-Specs.git'
+source 'https://github.com/hacoma/Synstagram-Module-CocoaPods-Specs.git'
+source 'https://github.com/hacoma/Synstagram-Scene-CocoaPods-Specs.git'
+
+platform :ios, '11.0'
+project 'Synstagram'
+inhibit_all_warnings!
+use_frameworks!
+
+target :'Synstagram' do
+    pod 'LoginScene', path: '/Users/hacoma/Desktop/synstagram/scene-sources/Synstagram-LoginScene'
+end

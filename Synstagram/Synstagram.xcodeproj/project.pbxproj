@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AF7F9D87C4516E520222606 /* Pods_Synstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD488DE4A63FC606E0B6D2E /* Pods_Synstagram.framework */; };
+		C812CF4B253333C400AE15CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812CF4A253333C400AE15CC /* AppDelegate.swift */; };
+		C812CF54253333C500AE15CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C812CF53253333C500AE15CC /* Assets.xcassets */; };
+		C812CF57253333C500AE15CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C812CF55253333C500AE15CC /* LaunchScreen.storyboard */; };
+		C83765C825336560006C6665 /* LoginSceneLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83765C725336560006C6665 /* LoginSceneLauncher.swift */; };
+		C83765DD25336C75006C6665 /* LoginSceneRoutingDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83765DC25336C75006C6665 /* LoginSceneRoutingDependency.swift */; };
+		C89A877E253335D400E3F9A4 /* HierarchyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A877D253335D400E3F9A4 /* HierarchyCoordinator.swift */; };
+		C89A87842533362100E3F9A4 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89A87832533362100E3F9A4 /* Color.xcassets */; };
+		C89A87872533362900E3F9A4 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89A87862533362900E3F9A4 /* Image.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C83766452533895D006C6665 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16A786390301553AD027BEBB /* Pods-Synstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synstagram.release.xcconfig"; path = "Target Support Files/Pods-Synstagram/Pods-Synstagram.release.xcconfig"; sourceTree = "<group>"; };
+		3BD488DE4A63FC606E0B6D2E /* Pods_Synstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Synstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C812CF47253333C400AE15CC /* Synstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Synstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C812CF4A253333C400AE15CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C812CF53253333C500AE15CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C812CF56253333C500AE15CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C812CF58253333C500AE15CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83765C725336560006C6665 /* LoginSceneLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneLauncher.swift; sourceTree = "<group>"; };
+		C83765DC25336C75006C6665 /* LoginSceneRoutingDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneRoutingDependency.swift; sourceTree = "<group>"; };
+		C89A877D253335D400E3F9A4 /* HierarchyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyCoordinator.swift; sourceTree = "<group>"; };
+		C89A87832533362100E3F9A4 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		C89A87862533362900E3F9A4 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		FD9CC00FE4E1511532A9D9CA /* Pods-Synstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synstagram.debug.xcconfig"; path = "Target Support Files/Pods-Synstagram/Pods-Synstagram.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C812CF44253333C400AE15CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF7F9D87C4516E520222606 /* Pods_Synstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5703A4AEE4C1D0FD7766A639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD9CC00FE4E1511532A9D9CA /* Pods-Synstagram.debug.xcconfig */,
+				16A786390301553AD027BEBB /* Pods-Synstagram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C812CF3E253333C400AE15CC = {
+			isa = PBXGroup;
+			children = (
+				C812CF49253333C400AE15CC /* Synstagram */,
+				C812CF48253333C400AE15CC /* Products */,
+				5703A4AEE4C1D0FD7766A639 /* Pods */,
+				EECC4CA391A7068E74029ACA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C812CF48253333C400AE15CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C812CF47253333C400AE15CC /* Synstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C812CF49253333C400AE15CC /* Synstagram */ = {
+			isa = PBXGroup;
+			children = (
+				C812CF672533346600AE15CC /* Core */,
+				C812CF652533344E00AE15CC /* LaunchScene */,
+				C837660A253377F6006C6665 /* LoginScene */,
+				C812CF63253333EA00AE15CC /* Supporting Files */,
+				C89A8780253335EE00E3F9A4 /* Resources */,
+			);
+			path = Synstagram;
+			sourceTree = "<group>";
+		};
+		C812CF63253333EA00AE15CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C812CF58253333C500AE15CC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C812CF642533344800AE15CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C89A87832533362100E3F9A4 /* Color.xcassets */,
+				C89A87862533362900E3F9A4 /* Image.xcassets */,
+			);
+			name = Resources;
+			path = View/Resources;
+			sourceTree = "<group>";
+		};
+		C812CF652533344E00AE15CC /* LaunchScene */ = {
+			isa = PBXGroup;
+			children = (
+				C812CF662533345600AE15CC /* View */,
+				C812CF642533344800AE15CC /* Resources */,
+			);
+			path = LaunchScene;
+			sourceTree = "<group>";
+		};
+		C812CF662533345600AE15CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C812CF55253333C500AE15CC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C812CF672533346600AE15CC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C812CF4A253333C400AE15CC /* AppDelegate.swift */,
+				C89A877D253335D400E3F9A4 /* HierarchyCoordinator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C83765C125336502006C6665 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				C83765DC25336C75006C6665 /* LoginSceneRoutingDependency.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		C837660A253377F6006C6665 /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				C8376617253380EB006C6665 /* Launcher */,
+				C83765C125336502006C6665 /* Dependency */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		C8376617253380EB006C6665 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				C83765C725336560006C6665 /* LoginSceneLauncher.swift */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		C89A8780253335EE00E3F9A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C812CF53253333C500AE15CC /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = LaunchScene/Resources;
+			sourceTree = "<group>";
+		};
+		EECC4CA391A7068E74029ACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD488DE4A63FC606E0B6D2E /* Pods_Synstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C812CF46253333C400AE15CC /* Synstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C812CF5B253333C500AE15CC /* Build configuration list for PBXNativeTarget "Synstagram" */;
+			buildPhases = (
+				574A0F2E897B86E8BBCBE6D7 /* [CP] Check Pods Manifest.lock */,
+				C812CF43253333C400AE15CC /* Sources */,
+				C812CF44253333C400AE15CC /* Frameworks */,
+				C812CF45253333C400AE15CC /* Resources */,
+				E5D747FB5FF5E2D06ABE162F /* [CP] Embed Pods Frameworks */,
+				C83766452533895D006C6665 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Synstagram;
+			productName = Synstagram;
+			productReference = C812CF47253333C400AE15CC /* Synstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C812CF3F253333C400AE15CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C812CF46253333C400AE15CC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C812CF42253333C400AE15CC /* Build configuration list for PBXProject "Synstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C812CF3E253333C400AE15CC;
+			productRefGroup = C812CF48253333C400AE15CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C812CF46253333C400AE15CC /* Synstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C812CF45253333C400AE15CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C812CF57253333C500AE15CC /* LaunchScreen.storyboard in Resources */,
+				C89A87872533362900E3F9A4 /* Image.xcassets in Resources */,
+				C812CF54253333C500AE15CC /* Assets.xcassets in Resources */,
+				C89A87842533362100E3F9A4 /* Color.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		574A0F2E897B86E8BBCBE6D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Synstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D747FB5FF5E2D06ABE162F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synstagram/Pods-Synstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synstagram/Pods-Synstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Synstagram/Pods-Synstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C812CF43253333C400AE15CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89A877E253335D400E3F9A4 /* HierarchyCoordinator.swift in Sources */,
+				C83765DD25336C75006C6665 /* LoginSceneRoutingDependency.swift in Sources */,
+				C83765C825336560006C6665 /* LoginSceneLauncher.swift in Sources */,
+				C812CF4B253333C400AE15CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C812CF55253333C500AE15CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C812CF56253333C500AE15CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C812CF59253333C500AE15CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C812CF5A253333C500AE15CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C812CF5C253333C500AE15CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9CC00FE4E1511532A9D9CA /* Pods-Synstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWXZ39X44R;
+				INFOPLIST_FILE = "$(SRCROOT)/Synstagram/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacoma.Synstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C812CF5D253333C500AE15CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A786390301553AD027BEBB /* Pods-Synstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWXZ39X44R;
+				INFOPLIST_FILE = "$(SRCROOT)/Synstagram/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacoma.Synstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C812CF42253333C400AE15CC /* Build configuration list for PBXProject "Synstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C812CF59253333C500AE15CC /* Debug */,
+				C812CF5A253333C500AE15CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C812CF5B253333C500AE15CC /* Build configuration list for PBXNativeTarget "Synstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C812CF5C253333C500AE15CC /* Debug */,
+				C812CF5D253333C500AE15CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C812CF3F253333C400AE15CC /* Project object */;
+}
