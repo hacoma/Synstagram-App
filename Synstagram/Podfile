@@ -9,5 +9,5 @@ inhibit_all_warnings!
 use_frameworks!
 
 target :'Synstagram' do
-    pod 'LoginScene', path: '/Users/hacoma/Desktop/synstagram/scene-sources/Synstagram-LoginScene'
+    pod 'LoginScene', '1.0.3'
 end
