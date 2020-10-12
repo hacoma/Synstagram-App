@@ -33,11 +33,11 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 ### Scenes
 - [LoginScene](https://github.com/hacoma/Synstagram-LoginScene)
 
-### SynstagramModule (Core)
+### SynstagramModule
 - [APIService](https://github.com/hacoma/Synstagram-APIService)
 
 
-### HacomaModule (Shared)
+### HacomaModule
 - [HacomaUI](https://github.com/hacoma/iOS-Hacoma-UI)
 - [HacomaNetwork](https://github.com/hacoma/iOS-Hacoma-Network)
 - [HacomaExtensions](https://github.com/hacoma/iOS-Hacoma-Extensions)
