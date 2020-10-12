@@ -13,10 +13,17 @@ Modules are managed as separate targets and repositories
 
 <img src="/Screenshots/Application Structure.png">
 
-- App : User client developed using all modules
-- Scenes : Smallest screen unit that makes up the app and adopts CleanSwift's VIP architecture pattern
-- SynstagramModule : Modules created using the HacomaModule are essential modules for developing Scenes or App
-- HacomaModule : Modules such as network, log, and extensions needed to develop iOS apps as well as the Synstagram
+### App
+User client developed using all modules
+
+### Scenes
+Smallest screen unit that makes up the app and adopts CleanSwift's VIP architecture pattern
+
+### SynstagramModule
+Modules created using the HacomaModule are essential modules for developing Scenes or App
+
+### HacomaModule
+Modules such as network, log, and extensions needed to develop iOS apps as well as the Synstagram
 
 ## Repositories
 
