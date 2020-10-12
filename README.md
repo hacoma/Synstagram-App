@@ -5,7 +5,7 @@ All APIs, images and trademarks used in this project are reserved by [Synology I
 
 ## Information
 
-- Synology's photo API (An Unofficial Reference) : https://blog.jbowen.dev/synology/photostation/
+- [Synology's photo API (An Unofficial Reference)](https://blog.jbowen.dev/synology/photostation/)
 
 ## Application Structure
 
