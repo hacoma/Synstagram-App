@@ -8,7 +8,8 @@ All APIs, images and trademarks used in this project are reserved by [Synology I
 - [Synology's photo API (An Unofficial Reference)](https://blog.jbowen.dev/synology/photostation/)
 
 ## Application Structure
-Synstagram adopted Modular Architecture. Modules are managed as separate targets and repositories
+Synstagram adopted Modular Architecture  
+Modules are managed as separate targets and repositories
 
 <img src="/Screenshots/Application Structure.png">
 
