@@ -22,6 +22,7 @@ final class LoginSceneLauncher {
     
     func launch(to window: inout UIWindow?) {
         window?.rootViewController = controller
+        window?.makeKeyAndVisible()
     }
     
     func launch(to navigationController: UINavigationController) {

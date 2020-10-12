@@ -13,6 +13,5 @@ final class HierarchyCoordinator {
         window = UIWindow(frame: UIScreen.main.bounds)
         let launcher = LoginSceneLauncher()
         launcher.launch(to: &window)
-        window?.makeKeyAndVisible()
     }
 }
