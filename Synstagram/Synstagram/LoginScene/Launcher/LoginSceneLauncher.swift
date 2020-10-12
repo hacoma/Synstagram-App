@@ -10,17 +10,21 @@ import LoginScene
 
 final class LoginSceneLauncher {
     
-    private let module: Module = {
+    private var module: Module {
         let routingDependency = LoginSceneRoutingDependency()
         let dependencies = Dependencies(routingDependency: routingDependency)
         return Module(dependencies: dependencies)
-    }()
+    }
+    
+    private var controller: UIViewController {
+        return module.controller
+    }
     
     func launch(to window: inout UIWindow?) {
-        module.load(to: &window)
+        window?.rootViewController = controller
     }
     
     func launch(to navigationController: UINavigationController) {
-        module.load(to: navigationController)
+        navigationController.pushViewController(controller, animated: true)
     }
 }

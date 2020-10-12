@@ -9,5 +9,5 @@ inhibit_all_warnings!
 use_frameworks!
 
 target :'Synstagram' do
-    pod 'LoginScene', '1.0.3'
+    pod 'LoginScene', '1.0.4'
 end
