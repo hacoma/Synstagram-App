@@ -8,6 +8,10 @@ project 'Synstagram'
 inhibit_all_warnings!
 use_frameworks!
 
+def scenes
+    pod 'LoginScene', '1.0.7'
+end
+
 target :'Synstagram' do
-    pod 'LoginScene', '1.0.5'
+    scenes
 end

@@ -12,10 +12,10 @@
 		C812CF54253333C500AE15CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C812CF53253333C500AE15CC /* Assets.xcassets */; };
 		C812CF57253333C500AE15CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C812CF55253333C500AE15CC /* LaunchScreen.storyboard */; };
 		C83765C825336560006C6665 /* LoginSceneLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83765C725336560006C6665 /* LoginSceneLauncher.swift */; };
-		C83765DD25336C75006C6665 /* LoginSceneRoutingDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83765DC25336C75006C6665 /* LoginSceneRoutingDependency.swift */; };
 		C89A877E253335D400E3F9A4 /* HierarchyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A877D253335D400E3F9A4 /* HierarchyCoordinator.swift */; };
 		C89A87842533362100E3F9A4 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89A87832533362100E3F9A4 /* Color.xcassets */; };
 		C89A87872533362900E3F9A4 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89A87862533362900E3F9A4 /* Image.xcassets */; };
+		C8B23D342536FEBE007B92B4 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B23D332536FEBE007B92B4 /* DependencyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,10 +40,10 @@
 		C812CF56253333C500AE15CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C812CF58253333C500AE15CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C83765C725336560006C6665 /* LoginSceneLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneLauncher.swift; sourceTree = "<group>"; };
-		C83765DC25336C75006C6665 /* LoginSceneRoutingDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneRoutingDependency.swift; sourceTree = "<group>"; };
 		C89A877D253335D400E3F9A4 /* HierarchyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyCoordinator.swift; sourceTree = "<group>"; };
 		C89A87832533362100E3F9A4 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		C89A87862533362900E3F9A4 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		C8B23D332536FEBE007B92B4 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		FD9CC00FE4E1511532A9D9CA /* Pods-Synstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synstagram.debug.xcconfig"; path = "Target Support Files/Pods-Synstagram/Pods-Synstagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,24 +137,16 @@
 			isa = PBXGroup;
 			children = (
 				C812CF4A253333C400AE15CC /* AppDelegate.swift */,
+				C8B23D332536FEBE007B92B4 /* DependencyContainer.swift */,
 				C89A877D253335D400E3F9A4 /* HierarchyCoordinator.swift */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		C83765C125336502006C6665 /* Dependency */ = {
-			isa = PBXGroup;
-			children = (
-				C83765DC25336C75006C6665 /* LoginSceneRoutingDependency.swift */,
-			);
-			path = Dependency;
 			sourceTree = "<group>";
 		};
 		C837660A253377F6006C6665 /* LoginScene */ = {
 			isa = PBXGroup;
 			children = (
 				C8376617253380EB006C6665 /* Launcher */,
-				C83765C125336502006C6665 /* Dependency */,
 			);
 			path = LoginScene;
 			sourceTree = "<group>";
@@ -301,7 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C89A877E253335D400E3F9A4 /* HierarchyCoordinator.swift in Sources */,
-				C83765DD25336C75006C6665 /* LoginSceneRoutingDependency.swift in Sources */,
+				C8B23D342536FEBE007B92B4 /* DependencyContainer.swift in Sources */,
 				C83765C825336560006C6665 /* LoginSceneLauncher.swift in Sources */,
 				C812CF4B253333C400AE15CC /* AppDelegate.swift in Sources */,
 			);
