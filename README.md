@@ -35,11 +35,13 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 
 ### SynstagramModule
 - [APIService](https://github.com/hacoma/Synstagram-APIService)
+- [Injectable](https://github.com/hacoma/Synstagram-Injectable)
 
 
 ### HacomaModule
 - [HacomaUI](https://github.com/hacoma/iOS-Hacoma-UI)
 - [HacomaNetwork](https://github.com/hacoma/iOS-Hacoma-Network)
+- [HacomaDIContainer](https://github.com/hacoma/iOS-Hacoma-DIContainer)
 - [HacomaExtensions](https://github.com/hacoma/iOS-Hacoma-Extensions)
 
 ### CocoaPods Specs
