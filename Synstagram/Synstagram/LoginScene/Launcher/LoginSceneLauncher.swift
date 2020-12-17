@@ -7,21 +7,21 @@
 
 import UIKit
 import HacomaDIContainer
-import Injectable
+import Dependencies
 
 final class LoginSceneLauncher {
     
-    @Injected
-    private var injectable: LoginInjectable?
+    @Injectable
+    private var dependency: LoginDependency?
     
     func launch(to window: inout UIWindow?) {
-        guard let vc = injectable?.viewController else { return }
+        guard let vc = dependency?.viewController else { return }
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
     }
     
     func launch(to navigationController: UINavigationController) {
-        guard let vc = injectable?.viewController else { return }
+        guard let vc = dependency?.viewController else { return }
         navigationController.pushViewController(vc, animated: true)
     }
 }

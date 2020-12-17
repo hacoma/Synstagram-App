@@ -19,6 +19,6 @@ final class DependencyContainer {
 extension DependencyContainer {
     
     private static func registerLoginSceneDependency() {
-        Container.shared.register(type: LoginInjectItem.self)
+        Container.shared.register(type: LoginDependencyItem.self)
     }
 }

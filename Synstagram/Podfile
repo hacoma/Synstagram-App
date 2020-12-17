@@ -9,7 +9,7 @@ inhibit_all_warnings!
 use_frameworks!
 
 def scenes
-    pod 'LoginScene', '1.0.7'
+    pod 'LoginScene', '1.0.8'
 end
 
 target :'Synstagram' do
