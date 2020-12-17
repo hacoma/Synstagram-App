@@ -20,10 +20,10 @@ User client developed using all modules
 Smallest screen unit that makes up the app and adopts CleanSwift's VIP architecture pattern
 
 ### SynstagramModule
-Modules created using the HacomaModule are essential modules for developing Scenes or App
+Modules created using the HacomaModule are essential modules for developing scenes or app
 
 ### HacomaModule
-Modules such as network, log, and extensions needed to develop iOS apps as well as the Synstagram
+Modules such as network, log, and extensions needed to develop iOS apps as well as the synstagram
 
 ## Repositories
 
@@ -35,7 +35,7 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 
 ### SynstagramModule
 - [APIService](https://github.com/hacoma/Synstagram-APIService)
-- [Injectable](https://github.com/hacoma/Synstagram-Injectable)
+- [Dependencies](https://github.com/hacoma/Synstagram-Dependencies)
 
 
 ### HacomaModule
